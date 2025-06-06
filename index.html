@@ -1,71 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tae Jin Kim | Backend Developer</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tae Jin Kim | Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,700|Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>👋 Hi, I'm Tae Jin Kim</h1>
-    <p>Java Backend Developer | AI & Blockchain Enthusiast</p>
-  </header>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Tae Jin Kim</h1>
+      <p><span class="typed" data-typed-items="Backend Developer, Java Specialist, AI + Blockchain Explorer"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TaeJinKim0930&show_icons=true&theme=radical" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TaeJinKim0930&layout=compact&theme=radical" height="180px" />
-</div>
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Hi, I'm Tae Jin Kim, a backend developer passionate about AI, blockchain, and building robust server-side systems using Java, Spring Boot, and MySQL.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Java Backend Developer.</h3>
+            <p class="fst-italic">Backend Specialist | RAG Solution Builder | Clean Code Advocate</p>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>oka1313@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <a href="https://github.com/TaeJinKim0930">github.com/TaeJinKim0930</a></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Velog:</strong> <a href="https://velog.io/@taejin0930">velog.io/@taejin0930</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
 
-<br>
-  
-  <section>
-<h2>DBInc. - RAG Model Manager</h2>
-<p>사내 RAG 기반 AI 챗봇 시스템의 다양한 모델(OpenAI, Triton 등)을 통합 관리하는 백오피스 시스템</p>
-<p>주요 기술: Java, Spring Boot, JPA, MySQL, Triton</p>
-<a href="https://github.com/TaeJinKim0930/DBInc.-RAG_Solution">🔗 GitHub 리포지토리 보기</a>
-    
-<h2>Pang-Together</h2>
-<p>AngelHack 2023 참가작: 실시간 공동 장바구니 기반 쇼핑 플랫폼</p>
-<p>주요 기술: Node.js, Socket.IO, React, AI 기반 추천</p>
-<a href="https://github.com/TaeJinKim0930/pang-together">🔗 GitHub 리포지토리 보기</a>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Here are some of my recent works:</p>
+        </div>
 
-    <h2>RAG - Bitcoin Price Predictor</h2>
-<p>Streamlit 기반으로 구현된 비트코인 가격 예측 모델 데모 애플리케이션</p>
-<p>사용자에게 간단한 UI를 통해 AI 예측 결과 제공</p>
-<a href="https://github.com/TaeJinKim0930/RAG-Bitcoin_Price_Predictor">🔗 GitHub 리포지토리 보기</a><br>
-<p>⚠ Streamlit은 GitHub Pages에서 직접 실행되지 않으며, Streamlit Cloud 또는 로컬 실행 필요</p>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <h4>DBInc. - RAG Solution</h4>
+            <p>AI 모델을 통합 관리하는 내부 백오피스 시스템</p>
+            <a href="https://github.com/TaeJinKim0930/rag-model-manager-summary" target="_blank">🔗 GitHub</a>
+          </div>
 
-    <h2>Shinsegae Java 교육 프로젝트</h2>
-<p>WMS 시스템 및 아이돌 경매 플랫폼 구현</p>
-<p>Java, Spring, MySQL, Virtual Thread, KG Inicis 사용</p>
-<a href="https://github.com/TaeJinKim0930/shinsegae_Java_edu">🔗 GitHub 리포지토리 보기</a>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <h4>Pang-Together</h4>
+            <p>공동 장바구니 기반 실시간 쇼핑 플랫폼</p>
+            <a href="https://github.com/TaeJinKim0930/Pang-Together" target="_blank">🔗 GitHub</a>
+          </div>
 
-    <h2>Antra Projects</h2>
-<p>미국 Antra Inc. 소속으로 참여한 Java 기반 백엔드 미니 프로젝트</p>
-<p>Java, REST API, Maven, Spring 사용</p>
-<a href="https://github.com/TaeJinKim0930/Antra_Projects">🔗 GitHub 리포지토리 보기</a>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <h4>RAG-Bitcoin Price Predictor</h4>
+            <p>Streamlit 기반 비트코인 예측 AI 앱</p>
+            <a href="https://github.com/TaeJinKim0930/RAG-Bitcoin_Price_Predictor" target="_blank">🔗 GitHub</a>
+          </div>
 
-    <h2>MeowWMS</h2>
-<p>Team4에서 만든 고양이 사료 관리용 창고 관리 시스템(WMS)</p>
-<p>주요 기능: 재고 등록, 출고 관리, 물류 시뮬레이션</p>
-<a href="https://github.com/p4Team4/MeowWms">🔗 GitHub 리포지토리 보기</a>
-  </section>
-<ul>
-  <li><a href="projects/dbinc-rag-solution.html">DBInc. - RAG Model Manager</a></li>
-  <li><a href="projects/pang-together.html">Pang-Together</a></li>
-  <li><a href="projects/rag-bitcoin-predictor.html">RAG-Bitcoin Price Predictor</a></li>
-  <li><a href="projects/shinsegae-java-edu.html">Shinsegae Java 교육 프로젝트</a></li>
-  <li><a href="projects/antra-projects.html">Antra Projects</a></li>
-  <li><a href="projects/meowwms.html">MeowWMS</a></li>
-</ul>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <h4>Shinsegae Java 교육 프로젝트</h4>
+            <p>WMS & 아이돌 경매 시스템</p>
+            <a href="https://github.com/TaeJinKim0930/shinsegae_Java_edu" target="_blank">🔗 GitHub</a>
+          </div>
 
-  
-  <section>
-    <h2>📫 Contact</h2>
-    <p>Email: taejin0930@gmail.com</p>
-    <p>Velog: <a href="https://velog.io/@taejin0930">velog.io/@taejin0930</a></p>
-    <p>GitHub: <a href="https://github.com/TaeJinKim0930">TaeJinKim0930</a></p>
-  </section>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <h4>Antra Projects</h4>
+            <p>미국 Antra Inc.의 Java 백엔드 미니 프로젝트</p>
+            <a href="https://github.com/TaeJinKim0930/Antra_Projects" target="_blank">🔗 GitHub</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <h4>MeowWMS</h4>
+            <p>Team4 - 고양이 창고 재고 시스템</p>
+            <a href="https://github.com/p4Team4/MeowWms" target="_blank">🔗 GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Feel free to reach out!</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>oka1313@gmail.com</p>
+              </div>
+              <div class="github">
+                <i class="bi bi-github"></i>
+                <h4>GitHub:</h4>
+                <p><a href="https://github.com/TaeJinKim0930">TaeJinKim0930</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+  </main><!-- End #main -->
 </body>
 </html>
