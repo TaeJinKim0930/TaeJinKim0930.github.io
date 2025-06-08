@@ -776,10 +776,10 @@
                         ],
                         site: [
                             "https://github.com/TaeJinKim0930/HappyHouse",
-                            "https://https://taejinkim0930.github.io/BaskinRobbins_Web_Project/",
-                            "https://https://taejinkim0930.github.io/HarryPotter_Web_Project/",
-                            "https://https://taejinkim0930.github.io/HwaSun_Web_Project/",
-                            "https://https://taejinkim0930.github.io/GwangBok_Web_Project/",
+                            "https://taejinkim0930.github.io/BaskinRobbins_Web_Project/",
+                            "https://taejinkim0930.github.io/HarryPotter_Web_Project/",
+                            "https://taejinkim0930.github.io/HwaSun_Web_Project/",
+                            "https://taejinkim0930.github.io/GwangBok_Web_Project/",
                         ],
                     };
                 },
