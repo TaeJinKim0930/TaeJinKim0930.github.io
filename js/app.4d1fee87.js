@@ -320,10 +320,10 @@
                     return t("div", { attrs: { id: "viewIntroduce" } }, [
                         t("div", [
                             t("p", { staticClass: "black title" }, [
-                                A._v("끈기로 이뤄내는 개발자"),
+                                A._v("책임을 질 수 있는 백엔드 개발자를 목표로!"),
                             ]),
                             t("p", { staticClass: "black title" }, [
-                                A._v("끈기로 이뤄내는 개발자"),
+                                A._v("책임을 질 수 있는 백엔드 개발자를 목표로!"),
                             ]),
                         ]),
                         t("div", [
@@ -357,7 +357,7 @@
                                 "a",
                                 {
                                     attrs: {
-                                        href: "https://career.programmers.co.kr/pr/engineerssong",
+                                        href: "https://career.programmers.co.kr/pr/tjmax0930",
                                         id: "link",
                                     },
                                 },
@@ -702,7 +702,7 @@
                     return {
                         len: 5,
                         tit: [
-                            "내가 사는 그 집",
+                            "DBInc.-RAG_Solution",
                             "배스킨 라빈스31",
                             "HARRY POTTER",
                             "화순 군청",
@@ -730,7 +730,7 @@
                             "개인 프로젝트",
                         ],
                         git: [
-                            "https://github.com/TaeJinKim0930/HappyHouse",
+                            "https://github.com/TaeJinKim0930/DBInc.-RAG_Solution",
                             "https://github.com/TaeJinKim0930/BaskinRobbins_Web_Project",
                             "https://github.com/TaeJinKim0930/HarryPotter_Web_Project",
                             "https://github.com/TaeJinKim0930/HwaSun_Web_Project",
@@ -751,7 +751,7 @@
                             "HTML, CSS, JavaScript, jQuery",
                         ],
                         site: [
-                            "https://github.com/TaeJinKim0930/HappyHouse",
+                            "https://github.com/TaeJinKim0930/DBInc.-RAG_Solution",
                             "https://taejinkim0930.github.io/BaskinRobbins_Web_Project/",
                             "https://taejinkim0930.github.io/HarryPotter_Web_Project/",
                             "https://taejinkim0930.github.io/HwaSun_Web_Project/",
@@ -841,7 +841,7 @@
     },
     "85ec": function (A, i, t) {},
     "8a43": function (A, i, t) {
-        A.exports = t.p + "img/profile.e487ae5d.png";
+        A.exports = t.p + "img/dog123.png";
     },
     "8b79": function (A, i) {
         A.exports =
